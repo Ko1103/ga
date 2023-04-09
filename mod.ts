@@ -7,7 +7,7 @@ import type { Context } from "https://deno.land/x/oak@v10.1.0/context.ts";
 import type { Middleware } from "https://deno.land/x/oak@v10.1.0/middleware.ts";
 
 const GA_TRACKING_ID = "GA_TRACKING_ID";
-const GA_BATCH_ENDPOINT = "https://www.google-analytics.com/batch";
+const GA_BATCH_ENDPOINT = "https://www.google-analytics.com/batch/analytics/v3";
 const GA_MAX_PARAM_LENGTH = 2_048; // 2kb
 const GA_MAX_PAYLOAD_LENGTH = 8_092; // 8kb
 const GA_MAX_BATCH_PAYLOAD_COUNT = 20;
